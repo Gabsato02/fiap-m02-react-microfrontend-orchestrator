@@ -18,8 +18,12 @@
   -->
 
   <main>
-    <route default>
+    <route path="/login">
       <application name="@bytebank/auth"></application>
+    </route>
+
+    <route path="/dashboard">
+      <application name="@bytebank/dashboard"></application>
     </route>
   </main>
 </single-spa-router>
